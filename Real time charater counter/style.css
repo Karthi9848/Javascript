@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orangered;
+}
+.counter{
+    background-color: pink;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.textarea{
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    box-sizing: border-box;
+    resize: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid 2px darkgray;
+    font-size: 18px;
+
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.container p{
+    font-size: 15px;
+    color: gray;
+}
+.total{
+    color: slateblue;
+}
+.Remaining{
+    color: orangered;
+}
